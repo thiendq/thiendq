@@ -11,6 +11,7 @@ import {DemoMaterialModule} from './material-module';
 import { enableProdMode } from '@angular/core';
 
 import { AppModule } from './app/app.module';
+//import {LaydstonComponent} from './app/usercontrol/xoathu/laydston/laydston.component'
 
 platformBrowserDynamic().bootstrapModule(AppModule).then(ref => {
   // Ensure Angular destroys itself on hot reloads.
