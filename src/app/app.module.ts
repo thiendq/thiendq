@@ -5,9 +5,10 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 import { LaydstonComponent } from './usercontrol/xoathu/laydston/laydston.component';
+import {Routing} from './routing';
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule ],
+  imports:      [ BrowserModule, FormsModule, Routing ],
   declarations: [ AppComponent, HelloComponent, LaydstonComponent ],
   bootstrap:    [ AppComponent ]
 })
