@@ -15,6 +15,7 @@ export class LaydstonComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+     this.dataSource.paginator = this.paginator;
   }
 }
 export interface PeriodicElement {
