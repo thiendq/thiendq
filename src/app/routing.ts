@@ -8,8 +8,7 @@ import { AppComponent } from './app.component'
 const routes: Routes = [
   { path: '', redirectTo: 'getting-started', pathMatch: 'full' },
   { path: 'getting-started', component: AppComponent },
-  { path: 'test', component: LaydstonComponent },
-  { path: '**', redirectTo: 'getting-started' }
+  { path: 'test', component: LaydstonComponent }
 ]
 
 @NgModule({
