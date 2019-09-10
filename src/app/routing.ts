@@ -2,10 +2,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { Routes, RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
 
-
+import { LaydstonComponent } from './usercontrol/xoathu/laydston/laydston.component';
+import { AppComponent } from './app.component'
 
 const routes: Routes = [
-
+  { path: '', redirectTo: 'getting-started', pathMatch: 'full' },
+  { path: 'getting-started', component: AppComponent },
+  { path: 'test', component: LaydstonComponent },
+  { path: '**', redirectTo: 'getting-started' }
 ]
 
 @NgModule({
