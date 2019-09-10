@@ -10,7 +10,6 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {DemoMaterialModule} from './material-module';
 import { enableProdMode } from '@angular/core';
 
-
 import { AppModule } from './app/app.module';
 
 platformBrowserDynamic().bootstrapModule(AppModule).then(ref => {
