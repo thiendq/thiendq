@@ -14,7 +14,7 @@ const routes: Routes = [
   { path: '', redirectTo: 'getting-started', pathMatch: 'full' },
   { path: 'getting-started', component: AppComponent },
   { path: 'test', component: LaydstonComponent },
-  { path: 'header', component: Headers }
+  { path: 'header', component: HeaderComponent }
 ]
 
 @NgModule({
