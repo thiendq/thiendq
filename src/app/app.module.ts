@@ -15,6 +15,8 @@ import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 import { LaydstonComponent } from './usercontrol/xoathu/laydston/laydston.component';
 import { Routing } from './routing';
+import { HeaderComponent } from './common/header/header.component';
+import { SidebarComponent } from './common/sidebar/sidebar.component';
 
 const components: any[] | Type<any> | ModuleWithProviders<{}> = [
 DemoMaterialModule
@@ -22,7 +24,7 @@ DemoMaterialModule
 
 @NgModule({
   imports: [BrowserModule, BrowserAnimationsModule,Routing,components],
-  declarations: [AppComponent, HelloComponent,LaydstonComponent],
+  declarations: [AppComponent, HelloComponent,LaydstonComponent, HeaderComponent, SidebarComponent],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -5,7 +5,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { LaydstonComponent } from './usercontrol/xoathu/laydston/laydston.component';
-//import { DemoMaterialModule } from './material-module';
 import { AppComponent } from './app.component'
 
 const routes: Routes = [
