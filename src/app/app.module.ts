@@ -3,7 +3,7 @@
 //import { FormsModule } from '@angular/forms';
 
 import { HttpClientModule } from '@angular/common/http'
-import { NgModule } from '@angular/core';
+import { Type, ModuleWithProviders, NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatNativeDateModule } from '@angular/material/core';
 import { BrowserModule } from '@angular/platform-browser';
@@ -16,8 +16,12 @@ import { HelloComponent } from './hello.component';
 import { LaydstonComponent } from './usercontrol/xoathu/laydston/laydston.component';
 import { Routing } from './routing';
 
+const components: any[] | Type<any> | ModuleWithProviders<{}> = [
+DemoMaterialModule
+];
+
 @NgModule({
-  imports: [BrowserModule, BrowserAnimationsModule,Routing, DemoMaterialModule],
+  imports: [BrowserModule, BrowserAnimationsModule,Routing,components],
   declarations: [AppComponent, HelloComponent,LaydstonComponent],
   bootstrap: [AppComponent]
 })
