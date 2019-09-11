@@ -5,11 +5,11 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { LaydstonComponent } from './usercontrol/xoathu/laydston/laydston.component';
-import { DemoMaterialModule } from './material-module';
+//import { DemoMaterialModule } from './material-module';
 import { AppComponent } from './app.component'
 
 const components: any[] | Type<any> | ModuleWithProviders<{}> = [
-LaydstonComponent,DemoMaterialModule
+LaydstonComponent
 ];
 
 const routes: Routes = [
@@ -21,7 +21,7 @@ const routes: Routes = [
 @NgModule({
   declarations: components,
   imports: [
-    BrowserModule, BrowserAnimationsModule, FormsModule, DemoMaterialModule,
+    BrowserModule, BrowserAnimationsModule, FormsModule,
     RouterModule.forRoot(routes, { useHash: true })
   ],
   exports: [RouterModule],
