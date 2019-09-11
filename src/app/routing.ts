@@ -21,7 +21,7 @@ const routes: Routes = [
 @NgModule({
   declarations: components,
   imports: [
-    BrowserModule, BrowserAnimationsModule, FormsModule,
+    BrowserModule, FormsModule,
     RouterModule.forRoot(routes, { useHash: true })
   ],
   exports: [RouterModule],
