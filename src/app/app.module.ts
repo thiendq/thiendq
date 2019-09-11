@@ -17,7 +17,7 @@ import { LaydstonComponent } from './usercontrol/xoathu/laydston/laydston.compon
 import { Routing } from './routing';
 
 @NgModule({
-  imports: [BrowserModule, BrowserAnimationsModule, FormsModule, Routing,DemoMaterialModule],
+  imports: [BrowserModule],
   declarations: [AppComponent, HelloComponent, LaydstonComponent],
   bootstrap: [AppComponent]
 })

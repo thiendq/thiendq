@@ -1,6 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { Routes, RouterModule } from '@angular/router';
 import { Type, ModuleWithProviders, NgModule } from '@angular/core';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { LaydstonComponent } from './usercontrol/xoathu/laydston/laydston.component';
 import { DemoMaterialModule } from './material-module';
@@ -17,8 +19,9 @@ const routes: Routes = [
 ]
 
 @NgModule({
+  declarations: components,
   imports: [
-    BrowserModule,
+    BrowserModule, BrowserAnimationsModule, FormsModule, DemoMaterialModule,
     RouterModule.forRoot(routes, { useHash: true })
   ],
   exports: [RouterModule],
