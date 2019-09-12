@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
-import * as data from './samples.json';
+import * as data from './../samples.json';
 
 @Component({
   selector: 'ej-sidebar',
