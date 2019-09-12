@@ -90,7 +90,7 @@
             ],
             "exclude": [
               "**/node_modules/**",
-              "src/app/common/**/*.json"
+              "src/app/common/*.json"
             ]
           }
         }
