@@ -24,7 +24,7 @@ DemoMaterialModule
 
 @NgModule({
   imports: [BrowserModule, BrowserAnimationsModule,Routing,components],
-  declarations: [AppComponent, HelloComponent,LaydstonComponent, HeaderComponent, SidebarComponent],
+  declarations: [AppComponent, HelloComponent,LaydstonComponent, HeaderComponent],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
