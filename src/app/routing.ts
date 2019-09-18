@@ -6,7 +6,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { LaydstonComponent } from './usercontrol/xoathu/laydston/laydston.component';
 import { HeaderComponent } from './common/header/header.component';
-import { SidebarComponent } from './common/sidebar/sidebar.component';
+//import { SidebarComponent } from './common/sidebar/sidebar.component';
 
 import { AppComponent } from './app.component'
 

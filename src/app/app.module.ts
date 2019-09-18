@@ -16,7 +16,7 @@ import { HelloComponent } from './hello.component';
 import { LaydstonComponent } from './usercontrol/xoathu/laydston/laydston.component';
 import { Routing } from './routing';
 import { HeaderComponent } from './common/header/header.component';
-import { SidebarComponent } from './common/sidebar/sidebar.component';
+//import { SidebarComponent } from './common/sidebar/sidebar.component';
 
 const components: any[] | Type<any> | ModuleWithProviders<{}> = [
 DemoMaterialModule
